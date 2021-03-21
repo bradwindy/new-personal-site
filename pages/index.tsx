@@ -14,7 +14,20 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMdCentre}>
-        <p className="mb-4 font-weight-bold">iOS Developer @ Trade Me</p>
+        <p className="mb-3 font-weight-bold">iOS Developer @ Trade Me</p>
+
+        <div className="mb-2">
+          <Link href="/about-me">
+            <Button variant="info" className="px-4 mr-2 mt-2 font-weight-bold">
+              About Me
+            </Button>
+          </Link>
+          <Link href="/blog">
+            <Button variant="info" className="mt-2 px-4 font-weight-bold">
+              Work Showcase
+            </Button>
+          </Link>
+        </div>
 
         <ButtonToolbar
           aria-label="Toolbar with button groups"
@@ -63,29 +76,12 @@ export default function Home() {
           </ButtonGroup>
         </ButtonToolbar>
 
-        <p className="mb-4">
+        <p className={utilStyles.openingPara}>
           From iOS to React, Flutter, and much, much more. I love learning new
-          skills wherever possible. Check out the links below for examples of my
-          professional and personal work, along with my development blog.
+          skills wherever possible. Check out the links above for more about me
+          and my skills, along with examples of my professional and personal
+          work and my GitHub profile.
         </p>
-
-        <div>
-          <Link href="/about-me">
-            <Button variant="info" className="mr-2 mt-2 px-4 font-weight-bold">
-              About Me
-            </Button>
-          </Link>
-          <Link href="/blog">
-            <Button variant="info" className="mr-2 mt-2 px-4 font-weight-bold">
-              Work Showcase
-            </Button>
-          </Link>
-          <Link href="/blog">
-            <Button variant="info" className="px-4 mt-2 font-weight-bold">
-              Blog
-            </Button>
-          </Link>
-        </div>
       </section>
     </Layout>
   );
