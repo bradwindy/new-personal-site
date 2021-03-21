@@ -21,31 +21,31 @@ export default function Home() {
           className="justify-content-center"
         >
           <ButtonGroup aria-label="Social Links" className="mb-4 mr-1">
-            <Button variant="light">
+            <Button variant="dark">
               <FontAwesomeIcon
                 icon="phone"
                 className={utilStyles.smallBrandIcon}
               />
             </Button>
-            <Button variant="light">
+            <Button variant="dark">
               <FontAwesomeIcon
                 icon="sms"
                 className={utilStyles.smallBrandIcon}
               />
             </Button>
-            <Button variant="light">
+            <Button variant="dark">
               <FontAwesomeIcon
                 icon="envelope"
                 className={utilStyles.smallBrandIcon}
               />
             </Button>
-            <Button variant="light">
+            <Button variant="dark">
               <FontAwesomeIcon
                 icon={["fab", "github"]}
                 className={utilStyles.smallBrandIcon}
               />
             </Button>
-            <Button variant="light">
+            <Button variant="dark">
               <FontAwesomeIcon
                 icon={["fab", "linkedin"]}
                 className={utilStyles.smallBrandIcon}
@@ -53,7 +53,7 @@ export default function Home() {
             </Button>
           </ButtonGroup>
           <ButtonGroup aria-label="Download CV" className="ml-1 mb-4">
-            <Button variant="light" className={utilStyles.smallButtonText}>
+            <Button variant="dark" className={utilStyles.smallButtonText}>
               <FontAwesomeIcon
                 icon="file-download"
                 className={utilStyles.smallNormalIconRightSpacing}
@@ -70,13 +70,20 @@ export default function Home() {
         </p>
 
         <div>
+          <Link href="/about-me">
+            <Button variant="info" className="mr-2 mt-2 px-4 font-weight-bold">
+              About Me
+            </Button>
+          </Link>
           <Link href="/blog">
-            <Button className="mr-2 px-4 font-weight-bold">
+            <Button variant="info" className="mr-2 mt-2 px-4 font-weight-bold">
               Work Showcase
             </Button>
           </Link>
           <Link href="/blog">
-            <Button className="px-4 font-weight-bold">Blog</Button>
+            <Button variant="info" className="px-4 mt-2 font-weight-bold">
+              Blog
+            </Button>
           </Link>
         </div>
       </section>
