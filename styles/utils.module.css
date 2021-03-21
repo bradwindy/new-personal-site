@@ -4,6 +4,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  text-align: center;
 }
 
 .headingXl {
@@ -23,6 +24,29 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+.headingMdCentre {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.smallBrandIcon {
+  width: 20px;
+}
+
+.smallNormalIcon {
+  width: 15px;
+}
+
+.smallNormalIconRightSpacing {
+  margin-right: 10px;
+  width: 15px;
+}
+
+.smallButtonText {
+  font-size: 0.8rem;
 }
 
 .borderCircle {

@@ -2,6 +2,10 @@ import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Button from "react-bootstrap/Button";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
+import ButtonToolbar from "react-bootstrap/ButtonToolbar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Home() {
   return (
@@ -9,18 +13,72 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>
+      <section className={utilStyles.headingMdCentre}>
+        <p className="mb-4 font-weight-bold">iOS Developer @ Trade Me</p>
+
+        <ButtonToolbar
+          aria-label="Toolbar with button groups"
+          className="justify-content-center"
+        >
+          <ButtonGroup aria-label="Social Links" className="mb-4 mr-1">
+            <Button variant="light">
+              <FontAwesomeIcon
+                icon="phone"
+                className={utilStyles.smallBrandIcon}
+              />
+            </Button>
+            <Button variant="light">
+              <FontAwesomeIcon
+                icon="sms"
+                className={utilStyles.smallBrandIcon}
+              />
+            </Button>
+            <Button variant="light">
+              <FontAwesomeIcon
+                icon="envelope"
+                className={utilStyles.smallBrandIcon}
+              />
+            </Button>
+            <Button variant="light">
+              <FontAwesomeIcon
+                icon={["fab", "github"]}
+                className={utilStyles.smallBrandIcon}
+              />
+            </Button>
+            <Button variant="light">
+              <FontAwesomeIcon
+                icon={["fab", "linkedin"]}
+                className={utilStyles.smallBrandIcon}
+              />
+            </Button>
+          </ButtonGroup>
+          <ButtonGroup aria-label="Download CV" className="ml-1 mb-4">
+            <Button variant="light" className={utilStyles.smallButtonText}>
+              <FontAwesomeIcon
+                icon="file-download"
+                className={utilStyles.smallNormalIconRightSpacing}
+              />
+              Download CV
+            </Button>
+          </ButtonGroup>
+        </ButtonToolbar>
+
+        <p className="mb-4">
           From iOS to React, Flutter, and much, much more. I love learning new
-          skills wherever possible. Check out the links below for my latest
-          personal projects, examples of my professional work, and my
-          development blog.
+          skills wherever possible. Check out the links below for examples of my
+          professional and personal work, along with my development blog.
         </p>
-        <p>
+
+        <div>
           <Link href="/blog">
-            <a>Blog</a>
+            <Button className="mr-2 px-4 font-weight-bold">
+              Work Showcase
+            </Button>
           </Link>
-        </p>
+          <Link href="/blog">
+            <Button className="px-4 font-weight-bold">Blog</Button>
+          </Link>
+        </div>
       </section>
     </Layout>
   );
