@@ -53,20 +53,13 @@ export default function Layout({
           </Link>
           <h2 className={utilStyles.headingLg}>
             <Link href="/">
-              <a className={utilStyles.colorInherit}>{name}</a>
+              <a className={utilStyles.colorInherit}>← &nbsp;&nbsp;{name}</a>
             </Link>
           </h2>
         </header>
       )}
 
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
     </div>
   );
 }

@@ -1,12 +1,10 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
-import Button from "react-bootstrap/Button";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
-import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
+import SocialLinks from "../components/social-links";
 
 export default function AboutMe() {
   return (
@@ -15,54 +13,9 @@ export default function AboutMe() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMdCentre}>
-        <ButtonToolbar
-          aria-label="Toolbar with button groups"
-          className="justify-content-center"
-        >
-          <ButtonGroup aria-label="Social Links" className="mb-4 mr-1">
-            <Button variant="dark">
-              <FontAwesomeIcon
-                icon="phone"
-                className={utilStyles.smallBrandIcon}
-              />
-            </Button>
-            <Button variant="dark">
-              <FontAwesomeIcon
-                icon="sms"
-                className={utilStyles.smallBrandIcon}
-              />
-            </Button>
-            <Button variant="dark">
-              <FontAwesomeIcon
-                icon="envelope"
-                className={utilStyles.smallBrandIcon}
-              />
-            </Button>
-            <Button variant="dark">
-              <FontAwesomeIcon
-                icon={["fab", "github"]}
-                className={utilStyles.smallBrandIcon}
-              />
-            </Button>
-            <Button variant="dark">
-              <FontAwesomeIcon
-                icon={["fab", "linkedin"]}
-                className={utilStyles.smallBrandIcon}
-              />
-            </Button>
-          </ButtonGroup>
-          <ButtonGroup aria-label="Download CV" className="ml-1 mb-4">
-            <Button variant="dark" className={utilStyles.smallButtonText}>
-              <FontAwesomeIcon
-                icon="file-download"
-                className={utilStyles.smallNormalIconRightSpacing}
-              />
-              Download CV
-            </Button>
-          </ButtonGroup>
-        </ButtonToolbar>
+        <SocialLinks />
 
-        <h3 className="mb-3 mt-3 font-weight-bold">About Me</h3>
+        <h1 className="mb-4 mt-3 font-weight-bold">About Me</h1>
 
         <CardColumns>
           <Card bg="dark">
