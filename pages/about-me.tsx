@@ -22,8 +22,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title className="font-weight-bold">
                 <FontAwesomeIcon
-                  icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  icon="mobile-alt"
+                  className={utilStyles.smallAboutIcon}
                 />
                 Mobile Experience
               </Card.Title>
@@ -39,8 +39,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  icon="laptop"
+                  className={utilStyles.smallAboutIcon}
                 />
                 Full Stack Experience
               </Card.Title>
@@ -55,8 +55,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  icon="code"
+                  className={utilStyles.smallAboutIcon}
                 />
                 Other Development Experience
               </Card.Title>
@@ -72,8 +72,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  icon="sync-alt"
+                  className={utilStyles.smallAboutIcon}
                 />
                 Agile Experience
               </Card.Title>
@@ -88,8 +88,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  icon="code-branch"
+                  className={utilStyles.smallAboutIcon}
                 />
                 Version Control Experience
               </Card.Title>
@@ -104,16 +104,16 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  icon="user-alt"
+                  className={utilStyles.smallAboutIcon}
                 />
                 Other Interests
               </Card.Title>
               <Card.Text className={utilStyles.cardText}>
-                Outside of software development, I am really interested in
-                photography, design, vinyl, watches and tinkering with computers
-                of all kinds. I have also volunteered on Sprit of New Zealand
-                and in both my local Rotary Club and Hospice Shop.
+                I'm really interested in photography, design, vinyl, watches and
+                tinkering with computers of all kinds. I have also volunteered
+                on Sprit of New Zealand and in both my local Rotary Club and
+                Hospice Shop.
               </Card.Text>
             </Card.Body>
           </Card>

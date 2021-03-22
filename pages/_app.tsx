@@ -8,9 +8,27 @@ import {
   faPhone,
   faSms,
   faEnvelope,
+  faMobileAlt,
+  faLaptop,
+  faSyncAlt,
+  faCode,
+  faCodeBranch,
+  faUserAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faFileDownload, faPhone, faSms, faEnvelope);
+library.add(
+  fab,
+  faFileDownload,
+  faPhone,
+  faSms,
+  faEnvelope,
+  faMobileAlt,
+  faLaptop,
+  faSyncAlt,
+  faCode,
+  faCodeBranch,
+  faUserAlt
+);
 
 export default function App({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
