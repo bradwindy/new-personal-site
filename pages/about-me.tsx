@@ -23,7 +23,7 @@ export default function AboutMe() {
               <Card.Title className="font-weight-bold">
                 <FontAwesomeIcon
                   icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Mobile Experience
               </Card.Title>
@@ -40,7 +40,7 @@ export default function AboutMe() {
               <Card.Title>
                 <FontAwesomeIcon
                   icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Full Stack Experience
               </Card.Title>
@@ -56,7 +56,7 @@ export default function AboutMe() {
               <Card.Title>
                 <FontAwesomeIcon
                   icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Other Development Experience
               </Card.Title>
@@ -73,7 +73,7 @@ export default function AboutMe() {
               <Card.Title>
                 <FontAwesomeIcon
                   icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Agile Experience
               </Card.Title>
@@ -89,7 +89,7 @@ export default function AboutMe() {
               <Card.Title>
                 <FontAwesomeIcon
                   icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Version Control Experience
               </Card.Title>
@@ -105,7 +105,7 @@ export default function AboutMe() {
               <Card.Title>
                 <FontAwesomeIcon
                   icon="sms"
-                  className={utilStyles.medBrandIcon}
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Other Interests
               </Card.Title>

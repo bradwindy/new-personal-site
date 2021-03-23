@@ -7,6 +7,7 @@ import utilStyles from "../styles/utils.module.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function WorkShowcase() {
   return (
@@ -21,10 +22,7 @@ export default function WorkShowcase() {
           <Row>
             <Col md>
               <Card className="bg-dark text-left mb-4">
-                <Card.Img
-                  variant="top"
-                  src="https://via.placeholder.com/800x600"
-                />
+                <Card.Img variant="top" src="/images/dynamic.jpg" />
                 <Card.Body>
                   <Card.Title>Dynamic Ads</Card.Title>
                   <Card.Text className={utilStyles.cardText}>
@@ -39,10 +37,7 @@ export default function WorkShowcase() {
             </Col>
             <Col md>
               <Card className="bg-dark text-left mb-4">
-                <Card.Img
-                  variant="top"
-                  src="https://via.placeholder.com/800x600"
-                />
+                <Card.Img variant="top" src="/images/homescreens.jpg" />
                 <Card.Body>
                   <Card.Title>Property and Motors Home Screens</Card.Title>
                   <Card.Text className={utilStyles.cardText}>
@@ -57,10 +52,7 @@ export default function WorkShowcase() {
             </Col>
             <Col md>
               <Card className="bg-dark text-left mb-4">
-                <Card.Img
-                  variant="top"
-                  src="https://via.placeholder.com/800x600"
-                />
+                <Card.Img variant="top" src="/images/dealerShowroom.jpg" />
                 <Card.Body>
                   <Card.Title>Dealer Showroom</Card.Title>
                   <Card.Text className={utilStyles.cardText}>
@@ -78,10 +70,7 @@ export default function WorkShowcase() {
           <Row>
             <Col md>
               <Card className="bg-dark text-left mb-4">
-                <Card.Img
-                  variant="top"
-                  src="https://via.placeholder.com/800x600"
-                />
+                <Card.Img variant="top" src="/images/reminderPlus.jpg" />
                 <Card.Body>
                   <Card.Title>Reminder+</Card.Title>
                   <Card.Text className={utilStyles.cardText}>
@@ -90,16 +79,22 @@ export default function WorkShowcase() {
                     working on mobile, my first somewhat public app, and a great
                     learning opportunity.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button
+                    variant="light"
+                    href="https://github.com/bradwindy/reminderplus"
+                  >
+                    <FontAwesomeIcon
+                      icon={["fab", "github"]}
+                      className={utilStyles.smallBrandIconRightSpacing}
+                    />
+                    View on GitHub
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
             <Col md>
               <Card className="bg-dark text-left mb-4">
-                <Card.Img
-                  variant="top"
-                  src="https://via.placeholder.com/800x600"
-                />
+                <Card.Img variant="top" src="/images/oneRoom.jpg" />
                 <Card.Body>
                   <Card.Title>OneRoom</Card.Title>
                   <Card.Text className={utilStyles.cardText}>
@@ -108,16 +103,22 @@ export default function WorkShowcase() {
                     room booking system at the uni with an online one complete
                     with accounts.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button
+                    variant="light"
+                    href="https://github.com/bradwindy/OneRoom"
+                  >
+                    <FontAwesomeIcon
+                      icon={["fab", "github"]}
+                      className={utilStyles.smallBrandIconRightSpacing}
+                    />
+                    View on GitHub
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
             <Col md>
               <Card className="bg-dark text-left mb-4">
-                <Card.Img
-                  variant="top"
-                  src="https://via.placeholder.com/800x600"
-                />
+                <Card.Img variant="top" src="/images/vmApp.jpg" />
                 <Card.Body>
                   <Card.Title>To-do List Web App</Card.Title>
                   <Card.Text className={utilStyles.cardText}>
@@ -126,7 +127,16 @@ export default function WorkShowcase() {
                     learning about VM's in the cloud and cross communication
                     between them.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button
+                    variant="light"
+                    href="https://github.com/bradwindy/azure-multivm-webapp"
+                  >
+                    <FontAwesomeIcon
+                      icon={["fab", "github"]}
+                      className={utilStyles.smallBrandIconRightSpacing}
+                    />
+                    View on GitHub
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
