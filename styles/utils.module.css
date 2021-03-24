@@ -55,6 +55,7 @@
 
 .cardText {
   font-size: 1rem;
+  margin-bottom: 20px;
 }
 
 .downloadIcon {
@@ -94,4 +95,8 @@
 
 .lightText {
   color: #666;
+}
+
+.appleImage {
+  width: 10;
 }

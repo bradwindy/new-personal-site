@@ -8,6 +8,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 export default function WorkShowcase() {
   return (
@@ -31,7 +32,15 @@ export default function WorkShowcase() {
                     ad to by dynamically requested and displayed, enabling
                     support for all types of ad creatives from our customers.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <a href="https://apps.apple.com/nz/app/trade-me-property/id550943614?itsct=apps_box&itscg=30200">
+                    <Image
+                      className={utilStyles.appleImage}
+                      src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1290038400&h=47b59d511386ee7e3ece3e78d93287c6"
+                      height={40}
+                      width={120}
+                      alt="Download Trade Me Property on the App Store"
+                    />
+                  </a>
                 </Card.Body>
               </Card>
             </Col>
@@ -46,7 +55,15 @@ export default function WorkShowcase() {
                     remote config to power the content displayed, instead of an
                     API, for quicker delivery.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <a href="https://apps.apple.com/nz/app/trade-me/id392567559?itsct=apps_box&itscg=30200">
+                    <Image
+                      className={utilStyles.appleImage}
+                      src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1290038400&h=47b59d511386ee7e3ece3e78d93287c6"
+                      height={40}
+                      width={120}
+                      alt="Download Trade Me on the App Store"
+                    />
+                  </a>
                 </Card.Body>
               </Card>
             </Col>
@@ -61,7 +78,15 @@ export default function WorkShowcase() {
                     worked to create a place in the iOS app to show more dealer
                     branding and info than we had previously shown.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <a href="https://apps.apple.com/nz/app/trade-me/id392567559?itsct=apps_box&itscg=30200">
+                    <Image
+                      className={utilStyles.appleImage}
+                      src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1290038400&h=47b59d511386ee7e3ece3e78d93287c6"
+                      height={40}
+                      width={120}
+                      alt="Download Trade Me on the App Store"
+                    />
+                  </a>
                 </Card.Body>
               </Card>
             </Col>
@@ -81,6 +106,7 @@ export default function WorkShowcase() {
                   </Card.Text>
                   <Button
                     variant="light"
+                    className="mb-2"
                     href="https://github.com/bradwindy/reminderplus"
                   >
                     <FontAwesomeIcon
@@ -104,6 +130,7 @@ export default function WorkShowcase() {
                     with accounts.
                   </Card.Text>
                   <Button
+                    className="mb-2"
                     variant="light"
                     href="https://github.com/bradwindy/OneRoom"
                   >
@@ -128,6 +155,7 @@ export default function WorkShowcase() {
                     between them.
                   </Card.Text>
                   <Button
+                    className="mb-2"
                     variant="light"
                     href="https://github.com/bradwindy/azure-multivm-webapp"
                   >
