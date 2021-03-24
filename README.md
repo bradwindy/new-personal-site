@@ -1,6 +1,6 @@
 # My Personal Website
 
-**Available at windybank.net**
+**Available at [windybank.net](https://windybank.net)**
 
 ## About
 
