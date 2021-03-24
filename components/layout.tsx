@@ -20,9 +20,17 @@ export default function Layout({
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="The personal website of an Auckland, New Zealand based iOS developer"
+          content="The personal website of an Auckland, New Zealand based iOS developer. Currently working at Trade Me."
         />
         <meta name="og:title" content={siteTitle} />
+        <meta
+          name="keywords"
+          content="ios developer, developer, mobile apps, auckland mobile developer, ios app, new zealand mobile developer, app developer, nz, auckland"
+        />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="author" content="Bradley Windybank" />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="1 days" />
       </Head>
 
       {home ? (
