@@ -14,6 +14,7 @@ import {
   faCode,
   faCodeBranch,
   faUserAlt,
+  faVial,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -27,7 +28,8 @@ library.add(
   faSyncAlt,
   faCode,
   faCodeBranch,
-  faUserAlt
+  faUserAlt,
+  faVial
 );
 
 export default function App({ Component, pageProps }: AppProps) {

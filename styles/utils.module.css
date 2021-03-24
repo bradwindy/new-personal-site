@@ -38,10 +38,13 @@
   text-align: center;
 }
 
-.socialIcon,
-.rightSpacedIcon {
+.socialIcon {
   width: 20px;
   padding-bottom: 2px;
+}
+
+.rightSpacedIcon {
+  height: 20px;
 }
 
 .rightSpacedIcon,

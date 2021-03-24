@@ -22,8 +22,9 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title className="font-weight-bold">
                 <FontAwesomeIcon
-                  icon="sms"
+                  icon="mobile-alt"
                   className={utilStyles.rightSpacedIcon}
+                  color="CornflowerBlue"
                 />
                 Mobile Experience
               </Card.Title>
@@ -37,10 +38,30 @@ export default function AboutMe() {
           </Card>
           <Card bg="dark">
             <Card.Body>
+              <Card.Title className="font-weight-bold">
+                <FontAwesomeIcon
+                  icon="vial"
+                  className={utilStyles.rightSpacedIcon}
+                  color="LightGreen"
+                />
+                Testing Experience
+              </Card.Title>
+              <Card.Text className={utilStyles.cardText}>
+                At Trade Me I have worked in several teams in which developers
+                have been involved in the testing process. I'm familiar with
+                writing test plans and testing work. This also extends to
+                developing with quality in mind, and I have experience in both
+                in writing unit and automation tests.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card bg="dark">
+            <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="sms"
+                  icon="laptop"
                   className={utilStyles.rightSpacedIcon}
+                  color="Coral"
                 />
                 Full Stack Experience
               </Card.Title>
@@ -55,8 +76,26 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="sms"
+                  icon="code-branch"
                   className={utilStyles.rightSpacedIcon}
+                  color="Plum"
+                />
+                Version Control Experience
+              </Card.Title>
+              <Card.Text className={utilStyles.cardText}>
+                I use git for all my personal projects and have experiences with
+                methodologies such as git workflow. I also have integrated git
+                in many personal CI/CD pipelines.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card bg="dark">
+            <Card.Body>
+              <Card.Title>
+                <FontAwesomeIcon
+                  icon="code"
+                  className={utilStyles.rightSpacedIcon}
+                  color="PaleGoldenRod"
                 />
                 Other Development Experience
               </Card.Title>
@@ -72,15 +111,17 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="sms"
+                  icon="sync-alt"
                   className={utilStyles.rightSpacedIcon}
+                  color="LightBlue"
                 />
                 Agile Experience
               </Card.Title>
               <Card.Text className={utilStyles.cardText}>
-                I have experience with agile methodologies such as scrum and
-                kanban. I am also familiar with tools to manage these processes
-                such as Jira.
+                I am the scrum master in my current squad at Trade me, and have
+                experience with agile methodologies such as scrum and kanban,
+                along with running retros and stand-ups. I am also familiar with
+                tools to manage these processes such as Jira and Parabol.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -88,24 +129,9 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="sms"
+                  icon="user-alt"
                   className={utilStyles.rightSpacedIcon}
-                />
-                Version Control Experience
-              </Card.Title>
-              <Card.Text className={utilStyles.cardText}>
-                I use git for all my personal projects and have experiences with
-                methodologies such as git workflow. I also have integrated git
-                in many personal CI/CD pipelines.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card bg="dark">
-            <Card.Body>
-              <Card.Title>
-                <FontAwesomeIcon
-                  icon="sms"
-                  className={utilStyles.rightSpacedIcon}
+                  color="BurlyWood"
                 />
                 Other Interests
               </Card.Title>
