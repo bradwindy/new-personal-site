@@ -85,7 +85,7 @@ export default function WorkShowcase() {
                   >
                     <FontAwesomeIcon
                       icon={["fab", "github"]}
-                      className={utilStyles.smallBrandIconRightSpacing}
+                      className={utilStyles.rightSpacedIcon}
                     />
                     View on GitHub
                   </Button>
@@ -109,7 +109,7 @@ export default function WorkShowcase() {
                   >
                     <FontAwesomeIcon
                       icon={["fab", "github"]}
-                      className={utilStyles.smallBrandIconRightSpacing}
+                      className={utilStyles.rightSpacedIcon}
                     />
                     View on GitHub
                   </Button>
@@ -133,7 +133,7 @@ export default function WorkShowcase() {
                   >
                     <FontAwesomeIcon
                       icon={["fab", "github"]}
-                      className={utilStyles.smallBrandIconRightSpacing}
+                      className={utilStyles.rightSpacedIcon}
                     />
                     View on GitHub
                   </Button>

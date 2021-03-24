@@ -12,20 +12,17 @@ export default function SocialLinks() {
     >
       <ButtonGroup aria-label="Social Links" className="mb-4 mr-1">
         <Button variant="dark" aria-label="Call" href="tel:0221031605">
-          <FontAwesomeIcon icon="phone" className={utilStyles.smallBrandIcon} />
+          <FontAwesomeIcon icon="phone" className={utilStyles.socialIcon} />
         </Button>
         <Button variant="dark" aria-label="Text" href="sms:0221031605">
-          <FontAwesomeIcon icon="sms" className={utilStyles.smallBrandIcon} />
+          <FontAwesomeIcon icon="sms" className={utilStyles.socialIcon} />
         </Button>
         <Button
           variant="dark"
           aria-label="Email"
           href="mailto:trykryda@gmail.com"
         >
-          <FontAwesomeIcon
-            icon="envelope"
-            className={utilStyles.smallBrandIcon}
-          />
+          <FontAwesomeIcon icon="envelope" className={utilStyles.socialIcon} />
         </Button>
         <Button
           variant="dark"
@@ -34,7 +31,7 @@ export default function SocialLinks() {
         >
           <FontAwesomeIcon
             icon={["fab", "github"]}
-            className={utilStyles.smallBrandIcon}
+            className={utilStyles.socialIcon}
           />
         </Button>
         <Button
@@ -44,21 +41,21 @@ export default function SocialLinks() {
         >
           <FontAwesomeIcon
             icon={["fab", "linkedin"]}
-            className={utilStyles.smallBrandIcon}
+            className={utilStyles.socialIcon}
           />
         </Button>
       </ButtonGroup>
       <ButtonGroup aria-label="Download CV Button" className="ml-1 mb-4">
         <Button
           variant="dark"
-          className={utilStyles.smallButtonText}
+          className={utilStyles.downloadButton}
           href="/files/testcv.pdf"
         >
           <FontAwesomeIcon
             icon="file-download"
-            className={utilStyles.smallNormalIconRightSpacing}
+            className={utilStyles.downloadIcon}
           />
-          Download CV
+          <div className={utilStyles.downloadText}>Download CV</div>
         </Button>
       </ButtonGroup>
     </ButtonToolbar>

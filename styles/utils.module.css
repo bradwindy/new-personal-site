@@ -38,20 +38,13 @@
   text-align: center;
 }
 
-.smallBrandIcon {
+.socialIcon,
+.rightSpacedIcon {
   width: 20px;
   padding-bottom: 2px;
 }
 
-.smallBrandIconRightSpacing {
-  width: 20px;
-  padding-bottom: 2px;
-  margin-right: 10px;
-}
-
-.smallAboutIcon {
-  width: 15px;
-  padding-bottom: 2px;
+.rightSpacedIcon {
   margin-right: 10px;
 }
 
@@ -63,18 +56,19 @@
   font-size: 1rem;
 }
 
-.smallNormalIcon {
-  width: 15px;
-}
-
-.smallNormalIconRightSpacing {
+.downloadIcon {
   margin-top: 2px;
   margin-right: 10px;
   width: 15px;
 }
 
-.smallButtonText {
+.downloadButton {
   font-size: 0.8rem;
+  display: inline-flex;
+}
+
+.downloadText {
+  padding-top: 0.2rem;
 }
 
 .borderCircle {
