@@ -22,8 +22,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title className="font-weight-bold">
                 <FontAwesomeIcon
-                  icon="mobile-alt"
-                  className={utilStyles.smallAboutIcon}
+                  icon="sms"
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Mobile Experience
               </Card.Title>
@@ -39,8 +39,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="laptop"
-                  className={utilStyles.smallAboutIcon}
+                  icon="sms"
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Full Stack Experience
               </Card.Title>
@@ -55,8 +55,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="code"
-                  className={utilStyles.smallAboutIcon}
+                  icon="sms"
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Other Development Experience
               </Card.Title>
@@ -72,8 +72,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="sync-alt"
-                  className={utilStyles.smallAboutIcon}
+                  icon="sms"
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Agile Experience
               </Card.Title>
@@ -88,8 +88,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="code-branch"
-                  className={utilStyles.smallAboutIcon}
+                  icon="sms"
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Version Control Experience
               </Card.Title>
@@ -104,8 +104,8 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon
-                  icon="user-alt"
-                  className={utilStyles.smallAboutIcon}
+                  icon="sms"
+                  className={utilStyles.smallBrandIconRightSpacing}
                 />
                 Other Interests
               </Card.Title>
