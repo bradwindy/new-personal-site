@@ -20,7 +20,7 @@ export default function SocialLinks() {
         <Button
           variant="dark"
           aria-label="Email"
-          href="mailto:trykryda@gmail.com"
+          href="mailto:bradleywindybank@gmail.com"
         >
           <FontAwesomeIcon icon="envelope" className={utilStyles.socialIcon} />
         </Button>
@@ -49,13 +49,13 @@ export default function SocialLinks() {
         <Button
           variant="dark"
           className={utilStyles.downloadButton}
-          href="/files/testcv.pdf"
+          href="mailto:bradleywindybank@gmail.com"
         >
           <FontAwesomeIcon
             icon="file-download"
             className={utilStyles.downloadIcon}
           />
-          <div className={utilStyles.downloadText}>Download CV</div>
+          <div className={utilStyles.downloadText}>Request CV</div>
         </Button>
       </ButtonGroup>
     </ButtonToolbar>
