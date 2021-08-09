@@ -12,16 +12,19 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMdCentre}>
-        <p className="mb-3 font-weight-bold">iOS Developer @ Trade Me</p>
+        <p className="mb-2 font-weight-bold">iOS Developer @ Trade Me</p>
 
         <div className="mb-2">
           <Link href="/about-me">
-            <Button variant="info" className="px-4 mr-2 mt-2 font-weight-bold">
+            <Button
+              variant="primary"
+              className="px-4 mr-2 mt-2 font-weight-bold"
+            >
               About Me
             </Button>
           </Link>
           <Link href="/work-showcase">
-            <Button variant="info" className="mt-2 px-4 font-weight-bold">
+            <Button variant="primary" className="mt-2 px-4 font-weight-bold">
               Work Showcase
             </Button>
           </Link>
