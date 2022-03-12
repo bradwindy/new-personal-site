@@ -20,7 +20,7 @@ export default function SocialLinks() {
         <Button
           variant="dark"
           aria-label="Email"
-          href="mailto:bradleywindybank@gmail.com"
+          href="mailto:bradley@windybank.net"
         >
           <FontAwesomeIcon icon="envelope" className={utilStyles.socialIcon} />
         </Button>
@@ -49,7 +49,7 @@ export default function SocialLinks() {
         <Button
           variant="dark"
           className={utilStyles.downloadButton}
-          href="mailto:bradleywindybank@gmail.com"
+          href="mailto:bradley@windybank.net"
         >
           <FontAwesomeIcon
             icon="file-download"
