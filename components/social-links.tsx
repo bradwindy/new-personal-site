@@ -8,7 +8,7 @@ export default function SocialLinks() {
   return (
     <ButtonToolbar
       aria-label="Toolbar with links"
-      className="justify-content-center"
+      className="justify-content-center mt-4"
     >
       <ButtonGroup aria-label="Social Links" className="mb-4 mr-1">
         <Button variant="dark" aria-label="Call" href="tel:0221031605">
