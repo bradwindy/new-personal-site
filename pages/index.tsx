@@ -1,14 +1,14 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
-import Link from "next/link";
-import Button from "react-bootstrap/Button";
 import SocialLinks from "../components/social-links";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
     <Layout home>
       <Head>
+        <SpeedInsights />
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMdCentre}>
