@@ -11,16 +11,10 @@ export default function SocialLinks() {
       className="justify-content-center mt-4"
     >
       <ButtonGroup aria-label="Social Links" className="mb-4 mr-1">
-        <Button variant="dark" aria-label="Call" href="tel:0221031605">
-          <FontAwesomeIcon icon="phone" className={utilStyles.socialIcon} />
-        </Button>
-        <Button variant="dark" aria-label="Text" href="sms:0221031605">
-          <FontAwesomeIcon icon="sms" className={utilStyles.socialIcon} />
-        </Button>
         <Button
           variant="dark"
           aria-label="Email"
-          href="mailto:bradley@windybank.net"
+          href="mailto:hello@windybank.net"
         >
           <FontAwesomeIcon icon="envelope" className={utilStyles.socialIcon} />
         </Button>
@@ -49,7 +43,7 @@ export default function SocialLinks() {
         <Button
           variant="dark"
           className={utilStyles.downloadButton}
-          href="mailto:bradley@windybank.net"
+          href="mailto:cv@windybank.net"
         >
           <FontAwesomeIcon
             icon="file-download"
