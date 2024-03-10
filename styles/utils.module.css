@@ -41,6 +41,10 @@
 .socialIcon {
   width: 20px;
   padding-bottom: 2px;
+  color: white;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.4em;
 }
 
 .rightSpacedIcon {

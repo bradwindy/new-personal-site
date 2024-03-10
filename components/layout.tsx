@@ -27,7 +27,6 @@ export default function Layout({
           name="keywords"
           content="ios developer, developer, mobile apps, auckland mobile developer, ios app, new zealand mobile developer, app developer, nz, auckland"
         />
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="author" content="Bradley Windybank" />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 days" />
@@ -48,16 +47,14 @@ export default function Layout({
       ) : (
         <header className={styles.headerAbout}>
           <Link href="/">
-            <a>
-              <Image
-                priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={100}
-                width={100}
-                alt={name}
-              />
-            </a>
+            <Image
+              priority
+              src="/images/profile.jpg"
+              className={utilStyles.borderCircle}
+              height={100}
+              width={100}
+              alt={name}
+            />
           </Link>
           <h2 className={utilStyles.headingLg}>
             <Link href="/">
