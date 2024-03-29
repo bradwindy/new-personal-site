@@ -21,7 +21,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@fullhuman/postcss-purgecss": "^6.0.0",
     "@types/node": "20.11.30",
     "@types/react": "18.2.73",
     "typescript": "5.4.3"
