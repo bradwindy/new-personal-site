@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
-    "@types/node": "22.13.2",
+    "@types/node": "22.13.4",
     "@types/react": "19.0.8",
     "typescript": "5.7.3"
   }
