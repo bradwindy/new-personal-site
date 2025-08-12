@@ -23,7 +23,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
     "@types/node": "22.17.1",
-    "@types/react": "19.1.9",
+    "@types/react": "19.1.10",
     "typescript": "5.9.2"
   }
 }
