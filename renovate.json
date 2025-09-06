@@ -1,28 +1,32 @@
 {
-  "extends": ["config:base"],
-
+  "extends": [
+    "config:recommended"
+  ],
   "timezone": "Pacific/Auckland",
-
   "schedule": [
     "after 10pm every weekday",
     "before 5am every weekday",
     "every weekend"
   ],
-
   "automergeType": "branch",
-
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
   },
-
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": [
+        "devDependencies"
+      ],
       "automerge": true
     },
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
       "automerge": true
     }
   ]
